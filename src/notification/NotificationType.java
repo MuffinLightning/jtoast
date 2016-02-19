@@ -1,4 +1,4 @@
-package tray.notification;
+
 
 public enum NotificationType {
     INFORMATION,

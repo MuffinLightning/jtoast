@@ -1,5 +1,3 @@
-package com.github.plushaze.traynotification.models;
-
 public final class Location {
 
 	public static Location at(double x, double y) {

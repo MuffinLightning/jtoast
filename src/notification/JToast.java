@@ -1,4 +1,3 @@
-package tray.notification;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

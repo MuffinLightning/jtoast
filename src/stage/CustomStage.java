@@ -1,5 +1,3 @@
-package com.github.plushaze.traynotification.models;
-
 import javafx.beans.property.SimpleDoubleProperty;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.layout.AnchorPane;

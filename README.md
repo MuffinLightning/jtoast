@@ -11,6 +11,7 @@ JToast is a Java class created with JavaFX used to create toast notifications on
 - Easy to integrate into any Java/JavaFX project.
 - Three built-in animation types: Pop, Fade, and Slide.
 - The ability to create your own animation types!
+- Support for custom images
 
 ## Usage 
 

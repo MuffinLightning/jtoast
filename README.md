@@ -1,9 +1,11 @@
 # JToast
+![logo](img/logo.png)
+
 JavaFX Toast Notifications
 
 ![ex](img/ex2.PNG)
 
-A Java class created with JavaFX used to create toast notifications on the user’s screen.
+A Java class created with JavaFX used to create toast notifications on the user’s screen. You may integrate these into your own Java/JavaFX programs.
 
 ## Usage 
 

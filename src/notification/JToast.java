@@ -19,7 +19,7 @@ import tray.models.CustomStage;
 import java.io.IOException;
 import java.net.URL;
 
-public final class TrayNotification {
+public final class JToast {
 
     @FXML
     private Label lblTitle, lblMessage, lblClose;
@@ -44,8 +44,8 @@ public final class TrayNotification {
      * @param img The image to show on the tray
      * @param rectangleFill The fill for the rectangle
      */
-    public TrayNotification(String title, String body, Image img, Paint rectangleFill) {
-        initTrayNotification(title, body, NotificationType.CUSTOM);
+    public JToast(String title, String body, Image img, Paint rectangleFill) {
+        initJToast(title, body, NotificationType.CUSTOM);
 
         setImage(img);
         setRectangleFill(rectangleFill);
@@ -57,21 +57,21 @@ public final class TrayNotification {
      * @param body The body text to assign to the tray
      * @param notificationType The notification type to assign to the tray
      */
-    public TrayNotification(String title, String body, NotificationType notificationType ) {
-        initTrayNotification(title, body, notificationType);
+    public JToast(String title, String body, NotificationType notificationType ) {
+        initJToast(title, body, notificationType);
     }
 
     /**
      * Initializes an empty instance of the tray notification
      */
-    public TrayNotification() {
-        initTrayNotification("", "", NotificationType.CUSTOM);
+    public JToast() {
+        initJToast("", "", NotificationType.CUSTOM);
     }
 
-    private void initTrayNotification(String title, String message, NotificationType type) {
+    private void initJToast(String title, String message, NotificationType type) {
 
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/tray/views/TrayNotification.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/tray/views/JToast.fxml"));
 
             fxmlLoader.setController(this);
             fxmlLoader.load();

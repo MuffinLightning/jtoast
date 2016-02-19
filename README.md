@@ -10,7 +10,7 @@ A Java class created with JavaFX used to create toast notifications on the userâ
 ```java
 // Create a new JToast
 
-String title = "HEY YOU!";
+        String title = "HEY YOU!";
         String message = "JToast is the coolest toast app ever!";
         Notification notification = Notifications.SUCCESS;
 

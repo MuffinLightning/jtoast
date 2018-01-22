@@ -1,4 +1,4 @@
-#JToast
+# JToast
 
 ![logo](img/logo.png)
 
